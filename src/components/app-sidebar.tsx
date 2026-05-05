@@ -7,6 +7,7 @@ import {
   LayoutDashboard,
   Megaphone,
   Mail,
+  Briefcase,
   CheckSquare,
   MessageCircle,
   Calendar,
@@ -68,6 +69,11 @@ const data = {
           title: "Tasks",
           url: "/tasks",
           icon: CheckSquare,
+        },
+        {
+          title: "Projects",
+          url: "/projects",
+          icon: Briefcase,
         },
         {
           title: "Chat",
