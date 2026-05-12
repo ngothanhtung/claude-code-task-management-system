@@ -18,6 +18,9 @@ import {
   CreditCard,
   LayoutTemplate,
   Users,
+  BookOpen,
+  MonitorPlay,
+  FileArchive,
 } from "lucide-react"
 import Link from "next/link"
 import { Logo } from "@/components/logo"
@@ -89,6 +92,21 @@ const data = {
           title: "Users",
           url: "/users",
           icon: Users,
+        },
+        {
+          title: "Quiz (Học sinh)",
+          url: "/quiz",
+          icon: BookOpen,
+        },
+        {
+          title: "Quiz Monitor (GV)",
+          url: "/quiz_monitor",
+          icon: MonitorPlay,
+        },
+        {
+          title: "ISO Documents",
+          url: "/iso",
+          icon: FileArchive,
         },
       ],
     },
